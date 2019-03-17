@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7645A68A223EC8A800ACC4C9 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7645A689223EC8A800ACC4C9 /* PlaySoundsViewController.swift */; };
 		76A9AD3B223B179B0047EE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A9AD3A223B179B0047EE86 /* AppDelegate.swift */; };
 		76A9AD3D223B179B0047EE86 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A9AD3C223B179B0047EE86 /* RecordSoundsViewController.swift */; };
 		76A9AD40223B179B0047EE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A9AD3E223B179B0047EE86 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7645A689223EC8A800ACC4C9 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		76A9AD37223B179B0047EE86 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A9AD3A223B179B0047EE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76A9AD3C223B179B0047EE86 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				76A9AD3A223B179B0047EE86 /* AppDelegate.swift */,
 				76A9AD3C223B179B0047EE86 /* RecordSoundsViewController.swift */,
+				7645A689223EC8A800ACC4C9 /* PlaySoundsViewController.swift */,
 				76A9AD3E223B179B0047EE86 /* Main.storyboard */,
 				76A9AD41223B179D0047EE86 /* Assets.xcassets */,
 				76A9AD43223B179D0047EE86 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A9AD3D223B179B0047EE86 /* RecordSoundsViewController.swift in Sources */,
+				7645A68A223EC8A800ACC4C9 /* PlaySoundsViewController.swift in Sources */,
 				76A9AD3B223B179B0047EE86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
